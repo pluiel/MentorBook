@@ -15,6 +15,10 @@
 		F937F7EF246FBB5B005ACF46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F937F7ED246FBB5B005ACF46 /* LaunchScreen.storyboard */; };
 		F937F7FA246FBB5B005ACF46 /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F937F7F9246FBB5B005ACF46 /* MentorBookTests.swift */; };
 		F937F805246FBB5B005ACF46 /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F937F804246FBB5B005ACF46 /* MentorBookUITests.swift */; };
+		F937F818246FBD31005ACF46 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F937F815246FBD31005ACF46 /* ryo.jpg */; };
+		F937F819246FBD31005ACF46 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F937F816246FBD31005ACF46 /* nagata.jpg */; };
+		F937F81A246FBD31005ACF46 /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F937F817246FBD31005ACF46 /* taithi.JPG */; };
+		F937F85A246FD4AB005ACF46 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F937F859246FD4AB005ACF46 /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		F937F800246FBB5B005ACF46 /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F937F804246FBB5B005ACF46 /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		F937F806246FBB5B005ACF46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F937F815246FBD31005ACF46 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		F937F816246FBD31005ACF46 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		F937F817246FBD31005ACF46 /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
+		F937F859246FD4AB005ACF46 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,8 @@
 				F937F7EB246FBB5B005ACF46 /* Assets.xcassets */,
 				F937F7ED246FBB5B005ACF46 /* LaunchScreen.storyboard */,
 				F937F7F0246FBB5B005ACF46 /* Info.plist */,
+				F937F814246FBD31005ACF46 /* images */,
+				F937F859246FD4AB005ACF46 /* Mentor.swift */,
 			);
 			path = MentorBook;
 			sourceTree = "<group>";
@@ -126,6 +136,16 @@
 				F937F806246FBB5B005ACF46 /* Info.plist */,
 			);
 			path = MentorBookUITests;
+			sourceTree = "<group>";
+		};
+		F937F814246FBD31005ACF46 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F937F815246FBD31005ACF46 /* ryo.jpg */,
+				F937F816246FBD31005ACF46 /* nagata.jpg */,
+				F937F817246FBD31005ACF46 /* taithi.JPG */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F937F818246FBD31005ACF46 /* ryo.jpg in Resources */,
+				F937F819246FBD31005ACF46 /* nagata.jpg in Resources */,
+				F937F81A246FBD31005ACF46 /* taithi.JPG in Resources */,
 				F937F7EF246FBB5B005ACF46 /* LaunchScreen.storyboard in Resources */,
 				F937F7EC246FBB5B005ACF46 /* Assets.xcassets in Resources */,
 				F937F7EA246FBB56005ACF46 /* Main.storyboard in Resources */,
@@ -259,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F937F85A246FD4AB005ACF46 /* Mentor.swift in Sources */,
 				F937F7E7246FBB56005ACF46 /* ViewController.swift in Sources */,
 				F937F7E3246FBB56005ACF46 /* AppDelegate.swift in Sources */,
 				F937F7E5246FBB56005ACF46 /* SceneDelegate.swift in Sources */,
